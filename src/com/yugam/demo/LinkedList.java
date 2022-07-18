@@ -34,7 +34,7 @@ public class LinkedList {
 	public void displayList() {
 		Node currentNode=head;
 		while(currentNode!=null) {
-			System.out.println(currentNode.data);
+			System.out.print(currentNode.data);
 			currentNode=currentNode.next;
 		}
 	}
